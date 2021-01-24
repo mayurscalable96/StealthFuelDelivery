@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stealthfueldelivery.app.delivery">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icongrey"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icongrey"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.stealthfueldelivery.app.delivery.activity.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.stealthfueldelivery.app.delivery.activity.Login"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.stealthfueldelivery.app.delivery.activity.ForgotPassword"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.stealthfueldelivery.app.delivery.activity.Home"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.stealthfueldelivery.app.delivery.activity.NewOrderParticular"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.stealthfueldelivery.app.delivery.activity.NavigationDrawerActivity" />
+        <activity android:name="com.stealthfueldelivery.app.delivery.activity.DeliveredOrderParticular" />
+
+        <service android:name="com.stealthfueldelivery.app.delivery.others.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.stealthfueldelivery.app.delivery.activity.Account" />
+        <activity android:name="com.stealthfueldelivery.app.delivery.activity.ChangePassword" />
+        <activity android:name="com.stealthfueldelivery.app.delivery.activity.Notification"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragement.AssignedOrderDelivered"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/search_deliveredorder"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Search"
+            android:textCursorDrawable="@drawable/cursor"
+            android:background="@drawable/roundededittext"
+            android:paddingLeft="0dp"
+            android:textSize="14sp"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/calibri"
+            android:focusable="false"
+            />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleview_deliveredorder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:nestedScrollingEnabled="false">
+            </android.support.v7.widget.RecyclerView>
+            <include layout="@layout/progres_bar"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

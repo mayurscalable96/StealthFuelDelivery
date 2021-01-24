@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "188900388756",
+    "firebase_url": "https://steallthfueldelivery.firebaseio.com",
+    "project_id": "steallthfueldelivery",
+    "storage_bucket": "steallthfueldelivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188900388756:android:45599806af6796580ee981",
+        "android_client_info": {
+          "package_name": "com.stealthfueldelivery.app.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188900388756-ga2hro8pgcoskb36baat6ljcqe9l3n01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVieeO_yGgwOtE-65FmaI11gp7GKlNkR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188900388756-ga2hro8pgcoskb36baat6ljcqe9l3n01.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "188900388756-ml2voidgiprovds86gphkabr3qjsspbt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.stealthfuel"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188900388756:android:b24f81b7c831e12e",
+        "android_client_info": {
+          "package_name": "com.stealthfueldelivery.app.steallthfueldelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188900388756-ga2hro8pgcoskb36baat6ljcqe9l3n01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVieeO_yGgwOtE-65FmaI11gp7GKlNkR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188900388756-ga2hro8pgcoskb36baat6ljcqe9l3n01.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "188900388756-ml2voidgiprovds86gphkabr3qjsspbt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.stealthfuel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
